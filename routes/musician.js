@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/check', (req, res) => {
-  res.status('200').send("Status: 何宜鍵的修改");
+  res.status('200').send("狀態碼: 200, OK");
 });
 
 // retrieve all musicians from data store
