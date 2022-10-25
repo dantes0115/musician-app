@@ -9,6 +9,11 @@ router.get('/check', (req, res) => {
   res.status('200').send("狀態碼: 200, update from desktop");
 });
 
+router.get('/dantes',(req, res) => {
+  res.status('200').send("何宜鍵echo");
+});
+
+
 // retrieve all musicians from data store
 router.get('/all', (req, res) => {
   const { musician } = req.app.locals;
