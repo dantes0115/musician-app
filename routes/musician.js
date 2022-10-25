@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/check', (req, res) => {
-  res.status('200').send("狀態碼: 200, 連結成功");
+  res.status('200').send("狀態碼: 200, update from desktop");
 });
 
 // retrieve all musicians from data store
